@@ -25,6 +25,7 @@ html {
   background-color: white;
   color: black;
   box-shadow: 0px 10px 10px -12px #111;
+  z-index: 1;
 }
 
 .sidebar {
@@ -37,7 +38,10 @@ html {
 }
 
 .article {
-  background-color: #e2e8f0;
+	background-color: #e2e8f0;
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	grid-template-rows: 1fr 1fr;
 }
 
 .article p {
@@ -45,6 +49,34 @@ html {
   font-family: sans-serif;
   color: rgb(0, 0, 0);
   text-align: left;
+  grid-column: 1 / s;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+.article .card {
+	background-color: #FFFFFF;
+	color: black;
+	text-align: center;
+	height: 200px;
+	border-radius: 10px;
+	border-left: 6px solid #e9be14;
+}
+
+.card p {
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.card .title {
+  font-size: 18px;
+  text-align: center;
 }
 
 .sidebar p {
