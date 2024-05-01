@@ -21,11 +21,8 @@ html {
   color: white;
 }
 
-.header {
-  background-color: white;
-} 
-
 .container .header {
+  background-color: white;
   color: black;
 }
 
@@ -39,12 +36,23 @@ html {
 }
 
 .article {
-  background-color: #7E1DC3;
+  background-color: #e2e8f0;
 }
 
 .article p {
   font-size: 18px;
   font-family: sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: left;
+}
+
+.sidebar p {
+  font-size: 18px;
+  text-align: start;
+}
+
+h1 {
+	font-size: 30px;
+	margin-top: 0;
+	text-align: start;
 }
