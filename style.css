@@ -24,7 +24,7 @@ html {
 .container .header {
   background-color: white;
   color: black;
-  box-shadow: 0px 15px 10px -15px #111
+  box-shadow: 0px 10px 10px -12px #111;
 }
 
 .sidebar {
