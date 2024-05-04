@@ -79,6 +79,50 @@ p {
   text-align: start;
 }
 
+.options > ul li {
+	display: flex;
+	gap: 12px;
+}
+
+.options > ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	text-align: start;
+	margin-bottom: 1.5em;
+	margin-left: -1rem;
+}
+
+.options > ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	text-align: start;
+}
+
+.options > ul li:first-child {
+  margin-bottom: 1.5em;
+	margin-left: -1rem;
+}
+
+.options > ul > li > svg {
+	display: inline;
+	height: 10px;
+	justify-self: center;
+	align-self: center;
+	width: 1.5625em;
+	height: 1.5625em;
+}
+
+.options > ul li .lesser-logo {
+	width: 0.7em;
+}
+
+.settings > ul li:first-child {
+	margin-left: 0;
+  margin-bottom: 0;
+}
+
 h1 {
 	font-size: 30px;
 	margin-top: 0;
@@ -155,55 +199,31 @@ h1 {
   margin: .9em .9em .9em 0
 }
 
-.trending > ul li {
-	margin: 0 0 2rem;
-}
-
-.trending > ul li > p {
+.trending > ul li > .creator p {
 	font-size: small;
 	color: #636363;
 }
 
-.options > ul li {
+
+.trending > ul li {
 	display: flex;
-	gap: 12px;
+	margin-left: .5rem;
 }
 
-.options > ul {
+img {
+	width: 2.4em;
+	height: 5rem;
+}
+
+ul li > .creator {
 	padding: 0;
-	list-style: none;
-	margin: 0;
-	text-align: start;
-	margin-bottom: 1.5em;
-	margin-left: -1rem;
-}
-
-.options > ul {
-	padding: 0;
-	list-style: none;
-	margin: 0;
-	text-align: start;
-}
-
-.options > ul li:first-child {
-  margin-bottom: 1.5em;
-	margin-left: -1rem;
-}
-
-.options > ul > li > svg {
-	display: inline;
-	height: 10px;
-	justify-self: center;
+	margin-left: 1rem;
 	align-self: center;
-	width: 1.5625em;
-	height: 1.5625em;
 }
 
-.options > ul li .lesser-logo {
-	width: 0.7em;
+.rightbar > .trending > ul {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
-.settings > ul li:first-child {
-	margin-left: 0;
-  margin-bottom: 0;
-}
