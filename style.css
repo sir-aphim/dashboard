@@ -22,6 +22,11 @@ ul {
 	text-align: start;
 }
 
+p {
+	margin: 0;
+	align-self: center;
+}
+
 .container {
   text-align: center;
   grid-template-columns: 1fr 5fr;
@@ -150,16 +155,16 @@ h1 {
   margin: .9em .9em .9em 0
 }
 
-.trending > ul > li {
-	margin: 32px 32px 32px 0;
+.trending > ul li {
+	margin: 0 0 2rem;
 }
 
-.trending > ul > li > p {
+.trending > ul li > p {
 	font-size: small;
 	color: #636363;
 }
 
-.options > ul > li {
+.options > ul li {
 	display: flex;
 	gap: 12px;
 }
@@ -171,4 +176,34 @@ h1 {
 	text-align: start;
 	margin-bottom: 1.5em;
 	margin-left: -1rem;
+}
+
+.options > ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	text-align: start;
+}
+
+.options > ul li:first-child {
+  margin-bottom: 1.5em;
+	margin-left: -1rem;
+}
+
+.options > ul > li > svg {
+	display: inline;
+	height: 10px;
+	justify-self: center;
+	align-self: center;
+	width: 1.5625em;
+	height: 1.5625em;
+}
+
+.options > ul li .lesser-logo {
+	width: 0.7em;
+}
+
+.settings > ul li:first-child {
+	margin-left: 0;
+  margin-bottom: 0;
 }
