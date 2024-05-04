@@ -9,6 +9,11 @@ strong {
   color: black;
 }
 
+h1 {
+	margin-bottom: 0;
+	align-self: center;
+}
+
 
 ul {
 	padding: 0;
@@ -152,4 +157,18 @@ h1 {
 .trending > ul > li > p {
 	font-size: small;
 	color: #636363;
+}
+
+.options > ul > li {
+	display: flex;
+	gap: 12px;
+}
+
+.options > ul {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+	text-align: start;
+	margin-bottom: 1.5em;
+	margin-left: -1rem;
 }
