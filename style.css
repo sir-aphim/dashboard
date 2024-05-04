@@ -116,12 +116,13 @@ h1 {
  
 }
 
-.news-list {
+.rightbar > .news-list {
   border-radius: 15px;
   background-color: white;
 	border-radius: 15px;
 	margin: 0 0 .3em;
   box-shadow: 0px 10px 10px -12px #111;
+  padding: 1em;
 }
 
 .news-list > ul > li > p {
@@ -142,4 +143,13 @@ h1 {
 
 .rightbar > .trend-title {
   margin: .9em .9em .9em 0
+}
+
+.trending > ul > li {
+	margin: 32px 32px 32px 0;
+}
+
+.trending > ul > li > p {
+	font-size: small;
+	color: #636363;
 }
