@@ -163,7 +163,7 @@ h1 {
 .cards > .card {
 	background-color: white;
 	border-radius: 15px;
-	border-left: 5px solid rgb(152, 3, 3);
+	border-left: 5px solid rgb(31, 41, 55);
 	font-weight: normal;
 	padding: 45px 25px 45px 25px;
 	box-shadow: 0px 10px 10px -12px #111;
@@ -299,13 +299,14 @@ ul li > .creator {
 	grid-column: 4;
 	width: 2em;
 	height: 4rem;
+	margin: 0 auto;
 }
 
 .header > strong {
 	grid-row: 1;
 	grid-column: 5;
 	align-self: center;
-	font-size: large;
+	font-size: medium;
 }
 
 #welcome-pic {
@@ -330,6 +331,13 @@ ul li > .creator {
 	color: black;
 	font-size: 25px;
 	text-align: start;
+}
+
+.balloon {
+	background-color: #1f2937;
+	border-radius: 25px;
+	width: 2.4em;
+	align-self: center;
 }
 
 .balloon > p {
